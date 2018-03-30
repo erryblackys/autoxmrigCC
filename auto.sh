@@ -48,7 +48,9 @@ sudo sysctl -w vm.nr_hugepages=128
 
 # run hugpage
 echo "vm.nr_hugepages = 128" >> /etc/sysctl.conf
+# config
+wget https://raw.githubusercontent.com/cmme7/autoxmrigCC/master/config.json
 
 # run xmrigDaemon
-/home/ubuntu/xmrigCC/xmrigDaemon -c wget https://raw.githubusercontent.com/cmme7/autoxmrigCC/master/config.json
+/home/ubuntu/xmrigCC/xmrigDaemon -c /home/ubuntu/xmrigCC/config.json
 
