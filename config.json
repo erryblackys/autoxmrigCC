@@ -1,0 +1,42 @@
+{
+    "algo": "cryptonight",
+    "av": null,
+    "aesni": 0,
+    "threads": 0,
+    "multihash-factor": 0,
+    "multihash-thread-mask": null,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 0,
+    "log-file": null,
+    "max-cpu-usage": 100,
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "syslog": false,
+    "pools": [
+        {
+            "url": "pool.electroneum.hashvault.pro:80",
+            "user": "etnkCxJhvaEfD4PyiWP4C3KqWv6fJaYNzGZGVEPhouLRWHKhZBkJxNM72CF6pGXbrWexjUVv7vV73fEE8ryq6FZx7NUb67Pq2K.10000",
+            "pass": "x",
+            "use-tls": false,
+            "keepalive": true,
+            "nicehash": false
+        }
+    ],
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null
+    },
+    "cc-client": {
+        "url": "54.243.12.127:3344",
+        "use-tls": false,
+        "access-token": "mySecret",
+        "worker-id": null,
+        "update-interval-s": 10
+            }
+}
