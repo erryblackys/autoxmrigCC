@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # go to root
-sudo su
+cd
 
 # server update & requesting apps install
 apt-get -y  install git build-essential cmake libuv1-dev libmicrohttpd-dev software-properties-common;
