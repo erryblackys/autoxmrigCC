@@ -51,6 +51,10 @@ echo "vm.nr_hugepages = 128" >> /etc/sysctl.conf
 # config
 wget https://raw.githubusercontent.com/cmme7/autoxmrigCC/master/config.json
 
+# Go to path
+cd xmrigCC
+
 # run xmrigDaemon
-/home/ubuntu/xmrigCC/xmrigDaemon -c /home/ubuntu/xmrigCC/config.json
+./xmrigDaemon -c /home/ubuntu/xmrigCC/config.json
+
 
