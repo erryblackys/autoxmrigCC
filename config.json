@@ -19,7 +19,7 @@
     "syslog": false,
     "pools": [
         {
-            "url": "pool.electroneum.hashvault.pro:5555",
+            "url": "mine.sumo.fairpool.xyz:5555",
             "user": "etnkKctfX3d1hHqjUzpYzTSyzJZ7chXxcQ6XeGJFJdJ9F2yB64yLwzAebZZuctiADSdm6q2BcGoWeYxDEX4ndobW23CUmKzatV.10000",
             "pass": "x",
             "use-tls": false,
