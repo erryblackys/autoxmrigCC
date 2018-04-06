@@ -2,7 +2,7 @@
     "algo": "cryptonight",
     "av": null,
     "aesni": 0,
-    "threads": 5,
+    "threads": 2,
     "multihash-factor": 3,
     "multihash-thread-mask": 3,
     "background": false,
