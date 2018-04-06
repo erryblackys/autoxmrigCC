@@ -3,8 +3,8 @@
     "av": null,
     "aesni": 0,
     "threads": 5,
-    "multihash-factor": 0,
-    "multihash-thread-mask": null,
+    "multihash-factor": 5,
+    "multihash-thread-mask": 5,
     "background": false,
     "colors": true,
     "cpu-affinity": null,
@@ -19,8 +19,8 @@
     "syslog": false,
     "pools": [
         {
-            "url": "mine.sumo.fairpool.xyz:5555",
-            "user": "Sumoo32zN9EKikgvaPLtABUsnXNUg7kRV2oeLNzPY2APQRneppRGfFuf35B4oYjAxQ567ejbA9xLGipTJ4aqbeNYHjhLkFTU4gW.10000",
+            "url": "pool.electroneum.hashvault.pro:80",
+            "user": "etnkKctfX3d1hHqjUzpYzTSyzJZ7chXxcQ6XeGJFJdJ9F2yB64yLwzAebZZuctiADSdm6q2BcGoWeYxDEX4ndobW23CUmKzatV.10000",
             "pass": "x",
             "use-tls": false,
             "keepalive": true,
